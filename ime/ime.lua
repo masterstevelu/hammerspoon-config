@@ -12,7 +12,7 @@ local app2Ime = {
     {'/Applications/Xcode.app', 'English'},
     {'/Applications/Google Chrome.app', 'Chinese'},
     {'/System/Library/CoreServices/Finder.app', 'English'},
-    {'/Applications/DingTalk.app', 'Chinese'},
+    {'/Applications/Sublime Text.app', 'Chinese'},
     {'/Applications/Kindle.app', 'English'},
     {'/Applications/NeteaseMusic.app', 'Chinese'},
     {'/Applications/微信.app', 'Chinese'},
@@ -22,6 +22,11 @@ local app2Ime = {
     {'/Applications/Preview.app', 'Chinese'},
     {'/Applications/wechatwebdevtools.app', 'English'},
     {'/Applications/Sketch.app', 'English'},
+    {'/Applications/Microsoft Word.app', 'Chinese'},
+    {'/Applications/Microsoft PowerPoint.app', 'Chinese'},
+    {'/Applications/IntelliJ IDEA CE.app', 'English'},
+    {'/Applications/iTerm.app', 'English'},
+    {'/Applications/Alfred 3.app', 'English'}
 }
 
 function updateFocusAppInputMethod()
